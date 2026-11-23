@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local secrets. Commit .env.example only.
+.env
+!.env.example
+
+# Uploaded documents
+uploads/*
+!uploads/.gitkeep
